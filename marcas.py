@@ -6,6 +6,7 @@ encabezados = {
     "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36"
 }
 
+### URL ESTATICA
 url = "https://www.diariooficial.interior.gob.cl/edicionelectronica/marcas_patentes.php?date=12-06-2020&edition=42679"
 
 respuesta = requests.get(url, headers=encabezados)
@@ -29,9 +30,10 @@ parser = html.fromstring(respuesta.text)
  #for idioma in idiomas:
   # print(idiomas)
 
-
+# PARSEO DE CLASE PADRE ARBOL HTML###########
 idiomas = parser.find_class('content')
 
+# IMPRESION EN CONSOLA PYTHON DE SCRAPING ########
 for idioma in idiomas:
  print(idioma.text_content())
 
