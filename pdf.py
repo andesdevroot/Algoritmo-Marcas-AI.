@@ -18,6 +18,6 @@ driver.find_element_by_id("pdfbox").send_keys("testing.pdf")
 driver.find_element_by_id("createPdf").click()
 driver.find_element_by_id("pdf-link-to-download").click()
 
-#driver.close()
+driver.close()
 
 
