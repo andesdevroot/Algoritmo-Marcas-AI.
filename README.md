@@ -1,9 +1,9 @@
 # scraping-marcas
 
 
-USAR  Algoritmo funcional :  MARCAS.PY
 
-USAR Algoritmo descarga PDF : PDF.PY
+
+USAR Algoritmo Ejempl2.py , este funciona bajada de archivo PDF del diario oficial
 
 
 César Rivas | Robert Sepulveda | Desarrolladores
